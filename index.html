@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Colour Guessing Game</title>
+    <link rel="stylesheet" href="juegodeadivinanza.css">
+</head>
+<body>
+    <div>
+    <h1 class= "title">The Colour Guessing Game</h1>
+    </div>
+
+    <div class = "presentacion">
+        <div id= "parteA">
+            <h2>Did you know that with the combination of just three colours you can form more that 16 millions of tones?</h2> 
+            <h2>That is RGB index, based on the level of <span id= "colorRojo">red</span>, <span id= "colorGreen">green</span> and <span id= "colorBlue">blue</span> in the blend for that particular colour.</h2>
+            <h2>In this game, you will be given a random RGB index and options of colours to figure it out what is the correct identity of the code.</h2>
+        </div>
+        <div id= "parteB"> 
+            <h3 id="formato">Choose the game's level </h3>
+            <div id= "botones">
+                <input type="radio" name="level" value="easy" id = "facil"/> Easy
+                <input type="radio" name="level" value="hard" id = "dificil"/> Hard
+                <input type="radio" name="level" value="very hard" id = "muyDificil"/> Very Hard
+            </div>
+        </div>
+    </div>
+
+    <div class = "presentacion2"> 
+        <img id = "ir" src= https://i.pinimg.com/originals/57/03/72/57037203fd8dd41ae5ebecce6b49b1f5.gif set="espiral de colores">
+        <h3 id="formato2">Click to the gif to play</h3>
+    </div>
+  
+    <div id = "juego" class= "part2">
+
+        <div class = "instrucciones">
+            <h2>You have to discover the colour of this code:</h2>
+            <h2><span id = colorDisplay></span></h2> 
+        </div>
+    
+        <div id= "stripe">
+            <span id = "message"></span>
+        </div>  
+    
+        <div class = "container">
+            <div class = "square"></div>
+            <div class = "square"></div>
+            <div class = "square"></div>
+            <div class = "square"></div>
+            <div class = "square"></div>
+            <div class = "square"></div>
+            <div class = "square"></div>
+            <div class = "square"></div>
+            <div class = "square"></div>
+            
+            <h2>
+            <button id= "refresh">New Colors</button>
+            </h2>
+        </div>
+    </div>    
+
+    <div id= "resolucion">
+        <div class = "aplausos">
+            <img id = "artificiales" class= "festejanding noAnimacion" src="https://i.pinimg.com/originals/51/a6/c6/51a6c6abe55eba88d3f28b094e7b8233.gif" alt="" srcset="">   
+        </div>
+        <div id = "congrats" class= "noAnimacion">
+            <h2>Congratulations!!!!!</h2>
+        </div>
+        <div id= "again2">
+            <button id= "again" class= "noAnimacion"><a href="javascript:location.reload()">Play Again</a></button> 
+        </div>
+    </div>
+    
+    <div class="cierre">
+        <img id="logo" src="imagenes/logo.jpg" alt="Caro"></a>
+        <span id="main3" class= "resaltado"> <strong> >>By Caro_escala<< </strong></a></span>   
+    </div>
+    <div id= "otro" class= "noAnimacion">
+        <div id= "historieta">
+            <p>This game is not my creative invention. I made it for practising my skills in Programming</p>
+        </div>
+    </div>    
+
+<script src="juegodeadivinanza.js"></script>
+
+</body>
+</html>

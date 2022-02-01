@@ -1,0 +1,308 @@
+body{
+    background-color: rgb(224, 255, 255);
+    height: 90%;
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container{
+    width: 600px;
+    position: center;
+    margin: 0 auto;
+    margin: 3px double green;
+}
+
+.title{
+    width: 100%;
+    box-sizing: border-box;
+    border: double 4px #7b2cbf;
+    background-color: #efe1fc;
+    z-index: 2;
+    color: rgb(2, 87, 87);
+    font-size: 300%;
+    text-align: center; 
+}
+
+.presentacion{
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    width: 65%;
+    margin: 0 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.presentacion2{
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    width: 32%;
+    margin-right: 1%;
+    padding-right: 1%;
+    align-content: center;
+}
+
+#parteA{
+    height: 60%;
+}
+
+#parteB{
+    box-sizing: border-box;
+    height: 30%;
+}
+
+#formato{
+    color: rgb(3, 117, 117);
+    text-align: center;
+    border-top:  #7b2cbf 1px dotted;
+    border-bottom:#7b2cbf 1px dotted;
+}
+
+#botones{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#ir{
+    border: double 4px #7b2cbf;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+#formato2{
+    box-sizing: border-box;
+    color: rgb(3, 117, 117);
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#facil{
+    align-content: center;
+}
+
+#dificil{
+    align-content: center;
+}
+
+#congrats{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;;
+}
+
+#again2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.instrucciones{
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+#again{
+    width: 555px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    background-color:#efe1fc;
+    color: #7b2cbf;
+    height: 40px;
+    border: double 2px #7b2cbf;
+}
+
+#resolucion{
+    width: 100%;
+}
+
+#colorRojo{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#colorGreen{
+    color:green;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#colorBlue{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.square{
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: aqua;
+    margin: 1%;
+}
+
+h1{
+    color: rgb(2, 82, 82)
+}
+
+h2{
+    color: rgb(1, 29, 29);
+    text-align: center;
+    width: 100%;
+}
+
+#stripe{
+    text-align: center;
+}
+
+#message{
+    color:rgb(3, 117, 117);;
+    font-size: 28pt;
+    margin: rgb(3, 48, 33), solid, 1px; 
+}
+
+#colorDisplay{
+    border: solid 2px rgb(8, 34, 34);
+    background-color: #efe1fc;    
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 0 1px;
+}
+
+.aplausos{
+    width: 550px;
+    align-content: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.festejanding{
+    width: 550px;
+    border: blue double 2px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.noAnimacion{
+    display: none;
+}
+
+.selected{
+    color: white;
+    background-color: #7b2cbf;;
+}
+
+.part2{
+    display: none;
+}
+
+.desaparece{
+    display: none;
+}
+
+#otroRenglon{
+    width: 180px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    height: 40px;
+}
+
+#refresh{
+    width: 180px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    background-color:#efe1fc;
+    color: #7b2cbf;
+    height: 40px;
+}
+
+.cierre{
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    height: 100px;
+    width: 21%;
+    margin: 0 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#otro{
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    height: 100px;
+    width: 72%; 
+    margin: 0 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+} 
+
+#main3{
+    color: #7b2cbf;
+    font-size: 80%;
+    bottom: 20px;
+    left: 120px;
+    position: relative;
+    z-index: 2;
+}
+
+#logo{
+    width: 40%;
+    border: double 2px #7b2cbf;
+    display: flex;
+    z-index: 2;
+}
+
+#historieta{
+    display: flex;
+    text-align: center; 
+    align-items: center; 
+    position: relative;
+    top: 0px; 
+    width: 200px; 
+    height: 80px; 
+    background-color:#efe1fc; 
+    border-radius: 25px; 
+    color: #7b2cbf;
+    font-size: 80%;
+} 
+ 
+#historieta:before{ 
+    content: ""; 
+    position: absolute; 
+    top: 65px; 
+    left: 0px; 
+    width: 0px; 
+    height: 0px; 
+    border-top: 20px solid #efe1fc; 
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent; 
+    transform: rotate(-75deg)
+}
+
+.resaltado{
+    background-color: white;
+}
+
+
